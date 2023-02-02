@@ -24,7 +24,7 @@ jobs:
         
           
     - name: execute py script 
-      run: python agrupadordelistas.py
+      run: python juntadorzip.py
     
     - name: git add
       run: |
