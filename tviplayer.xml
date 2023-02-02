@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="tviplayer" name="TVI Player" version="1.0" provider-name="Seu Nome">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="tviplayer.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>TVI Player addon para Kodi</summary>
+    <description>Assista aos seus vídeos favoritos do TVI Player diretamente do seu Kodi</description>
+    <platform>all</platform>
+    <disclaimer>Este addon não é mantido ou endossado pela TVI</disclaimer>
+  </extension>
+</addon>
